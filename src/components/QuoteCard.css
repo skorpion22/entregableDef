@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quoteCard {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr, auto;
+    text-align: center;
+    align-items:start;
+    color: white;
+}
+
+.quoteCard_container {
+    grid-template-columns: center;
+    vertical-align: text-top;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteCard_title {
+    margin-top:  2rem;
+    margin-bottom: 2rem;
+    max-width: 380px;
+    text-align: center;
+    color: #dd6236; 
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgba(255, 255, 255, 0.60); 
+    border-radius: 10px; 
+    border: 2px white solid;
+    }  
+
+.phrase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+.quoteCard_phrase {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    max-width: 30rem;
+    height: 12rem;
+    background: rgba(12, 11, 11, 0.574);
+    color: #14d6d3;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    border: #dd6236 solid;
+}
+
+.quoteCard_btn {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    max-width: 140px;
+    background: rgba(255, 255, 255, 0.60); border-radius: 10px; 
+    border: 2px white solid;
+    text-align: center;
+    color: orangered; 
+    font-size: 20px; 
+    font-family: Fredoka; 
+    transition: background-color 0.5s;
+    cursor:pointer;
+}
+
+.quoteCard_btn:hover {
+    background-color: yellow;
+}
+
+.quoteCard_footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    margin-bottom: 1rem;
+}

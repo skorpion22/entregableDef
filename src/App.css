@@ -1,0 +1,29 @@
+.app {
+    background-size: cover;
+    background-position: center;
+}
+
+
+.app.dbz1 {
+    background-image: url(/dbz1.jpg);
+}
+
+.app.dbz2 {
+    background-image: url(/dbz2.jpg);
+}
+
+.app.dbz3 {
+    background-image: url(/dbz3.jpg);
+}
+
+.app.dbz4 {
+    background-image: url(/dbz4.jpg);
+}
+
+.app.dbz5 {
+    background-image: url(/dbz5.jpg);
+}
+
+.app.dbz6 {
+    background-image: url(/dbz6.jpg);
+}
